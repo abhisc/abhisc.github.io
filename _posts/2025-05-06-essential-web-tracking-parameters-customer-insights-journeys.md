@@ -2,9 +2,10 @@
 
 title: "Essential Web Tracking Parameters for Customer Insights – Journeys"
 date: 2025-05-06
-tags: \[tracking, marketing, crm, dynamics365, customer-insights, realtime-journeys]
-categories: \[Marketing, CRM, Dynamics365]
+tags: [tracking, marketing, crm, dynamics365, customer-insights, realtime-journeys]
+categories: [Marketing, CRM, Dynamics365, CustomerInsights-Journeys]
 layout: post
+
 ------------
 
 When running digital campaigns, capturing **UTM parameters** like `utm_source` and `utm_campaign` is a common and essential practice. But that’s just the tip of the iceberg. There’s a lot more you can (and should) track to enrich journeys and drive personalized experiences, and this can also be achieved on **Dynamics 365 Customer Insights – Journeys (real-time marketing)**,
