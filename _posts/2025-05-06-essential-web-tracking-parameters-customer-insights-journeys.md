@@ -21,21 +21,21 @@ In this post, we’ll walk through:
 
 ## 🌐 What You Can Capture (Beyond UTM)
 
-| Category              | Data Point                                                            | How to Capture                            |
-| --------------------- | --------------------------------------------------------------------- | ----------------------------------------- |
-| **Campaign Metadata** | `utm_source`, `utm_medium`, `utm_campaign`, `utm_term`, `utm_content` | From URL parameters via JavaScript        |
-| **Referral Info**     | Referrer URL                                                          | `document.referrer`                       |
-| **Landing Page Info** | Full URL                                                              | `window.location.href`                    |
-| **Timestamp**         | Visit time                                                            | `new Date().toISOString()` or server log  |
-| **Geolocation**       | Country, region, city, IP                                             | IP-based lookup API (e.g., ipapi, ipinfo) |
-| **Device Info**       | OS, device, browser                                                   | `navigator.userAgent`, use `bowser.js`    |
-| **Screen Info**       | Resolution, size                                                      | `screen.width`, `screen.height`           |
-| **Language**          | Browser language                                                      | `navigator.language`                      |
-| **Returning Visitor** | Yes/No                                                                | Cookies or `localStorage`                 |
-| **Session ID**        | Unique session                                                        | Generate UUID and store locally           |
-| **Engagement**        | Time on page, scroll                                                  | JS timers + scroll listeners              |
-| **Click Path**        | Page navigation                                                       | Track via session history or logs         |
-| **Form Abandonment**  | Partial fills                                                         | Field-level tracking events               |
+| Category              | Data Point                        | How to Capture                            |
+|-----------------------|-----------------------------------|-------------------------------------------|
+| **Campaign Metadata** | `utm_source`<br>`utm_medium`<br>`utm_campaign`<br>`utm_term`<br>`utm_content` | From URL parameters via JavaScript        |
+| **Referral Info**     | Referrer URL                      | `document.referrer`                       |
+| **Landing Page Info** | Full URL                          | `window.location.href`                    |
+| **Timestamp**         | Visit time                        | `new Date().toISOString()` or server log  |
+| **Geolocation**       | Country, region, city, IP         | Use external services like ipapi.co, ipinfo.io, or ipify.org to fetch IP and geolocation info |
+| **Device Info**       | OS, device, browser               | `navigator.userAgent`, use `bowser.js`    |
+| **Screen Info**       | Resolution, size                  | `screen.width`, `screen.height`           |
+| **Language**          | Browser language                  | `navigator.language`                      |
+| **Returning Visitor** | Yes/No                            | Cookies or `localStorage`                 |
+| **Session ID**        | Unique session ID                 | Generate UUID and store locally           |
+| **Engagement**        | Time on page, scroll              | JS timers + scroll listeners              |
+| **Click Path**        | Page navigation history           | Track via session history or logs         |
+| **Form Abandonment**  | Partial field entries             | Field-level tracking events               |
 
 ---
 
