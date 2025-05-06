@@ -23,11 +23,11 @@ In this post, we’ll walk through:
 
 | Category              | Data Point                        | How to Capture                            |
 |-----------------------|-----------------------------------|-------------------------------------------|
-| **Campaign Metadata** | `utm_source`<br>`utm_medium`<br>`utm_campaign`<br>`utm_term`<br>`utm_content` | From URL parameters via JavaScript        |
+| **Campaign Metadata** | `utm_source`, `utm_medium`, `utm_campaign`<br>`utm_term`, `utm_content` | From URL parameters via JavaScript        |
 | **Referral Info**     | Referrer URL                      | `document.referrer`                       |
 | **Landing Page Info** | Full URL                          | `window.location.href`                    |
 | **Timestamp**         | Visit time                        | `new Date().toISOString()` or server log  |
-| **Geolocation**       | Country, region, city, IP         | Use external services like ipapi.co, ipinfo.io, or ipify.org to fetch IP and geolocation info |
+| **Geolocation**       | Country, region, city, IP         | Use external services like ipapi.co, ipinfo.io, or ipify.org <br>to fetch IP and geolocation info |
 | **Device Info**       | OS, device, browser               | `navigator.userAgent`, use `bowser.js`    |
 | **Screen Info**       | Resolution, size                  | `screen.width`, `screen.height`           |
 | **Language**          | Browser language                  | `navigator.language`                      |
