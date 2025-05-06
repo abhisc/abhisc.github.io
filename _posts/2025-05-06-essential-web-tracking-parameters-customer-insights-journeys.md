@@ -5,6 +5,7 @@ date: 2025-05-06
 tags: [tracking, marketing, crm, dynamics365, customer-insights, realtime-journeys]
 categories: [Marketing, CRM, Dynamics365, CustomerInsights-Journeys]
 layout: post
+comments: true
 
 ---
 
